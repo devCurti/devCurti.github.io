@@ -99,8 +99,8 @@ function func2(){
     doPrint(4,"hora")
     doPrint(5,"hostname")
     doPrint(6,"title")
-    doPrint(7,"cnpj")
-    doPrint(8,"apolice")
+    doPrint(7,"apolice")
+    doPrint(8,"cnpj")
     doPrint(9,"razao")
     var modelo = document.querySelector('input[name="modelo"]:checked')?.value;
     var trouble = document.getElementById("msg");
