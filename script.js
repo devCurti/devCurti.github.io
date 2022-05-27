@@ -84,7 +84,7 @@ function Copycontrol(){
 }
 
 function doPrint(x,i){
-    const name = ["Login", "Nome", "Email", "Telefone", "Disponibilidade", "Hostname", "Titulo", "Apólice", "CNPJ", "Razão Social"]
+    const name = ["Login", "Nome", "Email", "Telefone", "Disponibilidade", "Hostname", "Titulo", "Apólice", "CNPJ ou CPF", "Razão Social"]
     if (document.getElementById(i).value == ""){}
     else{document.getElementById('output').textContent += name[x] + ": " + document.getElementById(i).value + "\n"}
 
